@@ -1,6 +1,7 @@
+import java.util.Scanner;
 public class Factorial{
     public static void main(String[] args){
-        java.util.Scanner scan=new java.util.Scanner(System.in);
+        Scanner scan=new Scanner(System.in);
         int a=scan.nextInt();
         int fact=1;
         while(a!=0)
